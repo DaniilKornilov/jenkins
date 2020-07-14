@@ -6,5 +6,10 @@ pipeline {
                 sh 'python main.py'
             }
         }
+        stage('test') {
+            steps {
+                sh 'test.robot'
+            }
+        }
     }
 }
