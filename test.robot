@@ -5,4 +5,4 @@ Library         HelloWorldLib.py
 *** Test Cases ***
 Program output is correct
 	HelloWorldLib.Run
-	Check	9
+	Check	15
