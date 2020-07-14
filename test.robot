@@ -1,6 +1,6 @@
 *** Settings ***
 Library	OperatingSystem
-Library         test_lib.py
+Library         TestLib.py
 
 *** Test Cases ***
 Program output is correct
