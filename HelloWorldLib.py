@@ -1,6 +1,6 @@
 import subprocess
 import sys
-import os
+import os.path
 
 
 class HelloWorldLib(object):

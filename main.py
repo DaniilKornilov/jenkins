@@ -1,5 +1,6 @@
 def foo(a, b):
-    return a + b
+    print(a + b)
 
 
-print(foo(2, 6))
+if __name__ == '__main__':
+    foo(2, 6)

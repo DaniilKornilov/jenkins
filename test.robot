@@ -1,6 +1,6 @@
 *** Settings ***
 Library	OperatingSystem
-Library  HelloWorldLib.py
+Library         HelloWorldLib.py
 
 *** Test Cases ***
 Program output is correct
