@@ -3,7 +3,7 @@ import sys
 import os.path
 
 
-class HelloWorldLib(object):
+class TestLib(object):
     def __init__(self):
         self._path = 'main.py'
         self._output = ''

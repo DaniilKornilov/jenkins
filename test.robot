@@ -1,8 +1,8 @@
 *** Settings ***
 Library	OperatingSystem
-Library         HelloWorldLib.py
+Library         test_lib.py
 
 *** Test Cases ***
 Program output is correct
-	HelloWorldLib.Run
+	TestLib.Run
 	Check	15
