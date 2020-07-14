@@ -3,4 +3,4 @@ def foo(a, b):
 
 
 if __name__ == '__main__':
-    foo(2, 6)
+    foo(3, 6)
