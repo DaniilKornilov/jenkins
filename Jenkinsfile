@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'robot test.robot'
+                sh '~/.local/bin/robot test.robot'
             }
         }
     }
