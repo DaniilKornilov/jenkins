@@ -6,8 +6,5 @@ pipeline {
                 sh 'python main.py'
             }
         }
-        stage('test') {
-
-        }
     }
 }
