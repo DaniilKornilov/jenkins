@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'test.robot'
+                sh 'robot test.robot'
             }
         }
     }
