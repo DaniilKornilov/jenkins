@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                git url: "https://github.com/DaniilKornilov/jenkins"
                 sh 'python main.py'
             }
         }
