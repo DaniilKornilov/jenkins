@@ -5,7 +5,7 @@ import os.path
 
 class TestLib(object):
     def __init__(self):
-        self._path = 'Main.py'
+        self._path = 'main.py'
         self._output = ''
 
     def check(self, expected_output):
